@@ -21,16 +21,28 @@ A ready-to-use Jupyter Notebook template for machine learning projects.
 Follow the steps below to set up a Python virtual environment for this machine learning project and install the required dependencies.
 
 - Ensure you have Python installed on your system.
-- Create a virtual environment 
+- Create a virtual environment: 
   ```bash
   python -m venv machine-learning-venv
-- Activate the virtual environment
+  ```
+- Activate the virtual environment:
   - On Windows:
     ```bash
     venv\Scripts\activate
+    ```
   - On macOS/Linux:
     ```bash
     source venv/bin/activate
+    ```
+- Ensure that `pip` is up to date:
+  ```bash
+  pip install --upgrade pip
+  ```
+- Install the required Python packages using the provided `requirements.txt` file:
+  ```bash
+  pip install -r requirements.txt
+  ```
+You're now ready to use the environment for your machine learning project! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
