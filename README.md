@@ -11,7 +11,7 @@
     </ul>
   </li>
   <li>
-    <a href="#set-up-virtual-environment">Set Up Virtual Environment</a>
+    <a href="#-set-up-virtual-environment">Set Up Virtual Environment</a>
   </li>
 </ol>
 
@@ -31,7 +31,7 @@ A ready-to-use Jupyter Notebook template for machine learning projects.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Set Up Virtual Environment
+## 📦 Set Up Virtual Environment
 
 Follow the steps below to set up a Python virtual environment for this machine learning project and install the required dependencies.
 
