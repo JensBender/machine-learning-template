@@ -13,6 +13,9 @@
   <li>
     <a href="#-set-up-virtual-environment">Set Up Virtual Environment</a>
   </li>
+  <li>
+    <a href="#️-license">License</a>
+  </li>
 </ol>
 
 
@@ -58,6 +61,13 @@ Follow the steps below to set up a Python virtual environment for this machine l
   pip install -r requirements.txt
   ```
 You're now ready to use the environment for your machine learning project! 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## ©️ License
+This project is licensed under the [MIT License](LICENSE).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
