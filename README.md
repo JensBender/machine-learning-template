@@ -39,6 +39,7 @@ A ready-to-use Jupyter Notebook template for machine learning projects.
 
 
 ## 🚀 Getting Started
+Follow these steps to set up the virtual environment, install the required packages, and, if needed, set up environment variables for the project.
 
 ### 📦 Set Up Virtual Environment
 
