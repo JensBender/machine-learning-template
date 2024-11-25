@@ -14,6 +14,9 @@
     <a href="#-set-up-virtual-environment">Set Up Virtual Environment</a>
   </li>
   <li>
+    <a href="#️-set-up-environment-variables">Set Up Virtual Environment</a>
+  </li>
+  <li>
     <a href="#️-license">License</a>
   </li>
 </ol>
@@ -61,6 +64,23 @@ Follow the steps below to set up a Python virtual environment for this machine l
   pip install -r requirements.txt
   ```
 You're now ready to use the environment for your machine learning project! 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🗝️ Set Up Environment Variables
+- If your project requires sensitive information, such as API keys or database credentials, it is good practice to store this information securely in a `.env` file. Example `.env` file content:
+  ```
+  # Your API key
+  API_KEY="your_api_key_here"
+
+  # Your SQL database credentials
+  SQL_USERNAME="your_sql_username_here"
+  SQL_PASSWORD="your_sql_password_here"
+  ```
+- Replace the placeholder values with your actual values.
+- Add the `.env` file to your `.gitignore` to ensure it is not accidentally committed to version control.
+- The environment variables stored in your `.env` file will be loaded into your environment using the `load_dotenv()` function from the `python-dotenv` library.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
