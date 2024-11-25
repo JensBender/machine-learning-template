@@ -1,6 +1,21 @@
 <!-- anchor tag for back-to-top links -->
 <a name="readme-top"></a>
 
+<!-- TABLE OF CONTENTS -->
+## 📋 Table of Contents
+<ol>
+  <li>
+    <a href="#-summary">Summary</a>
+    <ul>
+      <li><a href="#️-built-with">Built With</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#set-up-virtual-environment">Set Up Virtual Environment</a>
+  </li>
+</ol>
+
+
 <!-- SUMMARY -->
 ## 🎯 Summary
 A ready-to-use Jupyter Notebook template for machine learning projects.
