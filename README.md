@@ -14,7 +14,7 @@
     <a href="#-set-up-virtual-environment">Set Up Virtual Environment</a>
   </li>
   <li>
-    <a href="#️-set-up-environment-variables">Set Up Virtual Environment</a>
+    <a href="#️-set-up-environment-variables">Set Up Environment Variables</a>
   </li>
   <li>
     <a href="#️-license">License</a>
