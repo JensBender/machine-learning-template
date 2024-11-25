@@ -43,11 +43,11 @@ Follow the steps below to set up a Python virtual environment for this machine l
 - Activate the virtual environment:
   - On Windows:
     ```bash
-    venv\Scripts\activate
+    machine-learning-venv\Scripts\activate
     ```
   - On macOS/Linux:
     ```bash
-    source venv/bin/activate
+    source machine-learning-venv/bin/activate
     ```
 - Ensure that `pip` is up to date:
   ```bash
