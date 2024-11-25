@@ -11,10 +11,11 @@
     </ul>
   </li>
   <li>
-    <a href="#-set-up-virtual-environment">Set Up Virtual Environment</a>
-  </li>
-  <li>
-    <a href="#️-set-up-environment-variables">Set Up Environment Variables</a>
+    <a href="#-getting-started">Getting Started</a>  
+    <ul>
+        <li><a href="#-set-up-virtual-environment">Set Up Virtual Environment</a></li>
+        <li><a href="#️-set-up-environment-variables">Set Up Environment Variables</a></li>
+    </ul>
   </li>
   <li>
     <a href="#️-license">License</a>
@@ -37,7 +38,9 @@ A ready-to-use Jupyter Notebook template for machine learning projects.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 📦 Set Up Virtual Environment
+## 🚀 Getting Started
+
+### 📦 Set Up Virtual Environment
 
 Follow the steps below to set up a Python virtual environment for this machine learning project and install the required dependencies.
 
@@ -68,7 +71,7 @@ You're now ready to use the environment for your machine learning project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🗝️ Set Up Environment Variables
+### 🗝️ Set Up Environment Variables
 - If your project requires sensitive information, such as API keys or database credentials, it is good practice to store this information securely in a `.env` file. Example `.env` file content:
   ```
   # Your API key
