@@ -38,6 +38,23 @@ This repository provides a comprehensive machine learning template designed to g
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Data Preprocessing
+
+The preprocessing section includes essential data cleaning and transformation steps:
+
+- Remove duplicates (e.g., based on the `ID` column).
+- Handle incorrect data types (e.g., convert string columns to numerical or `datetime` columns).
+- Extract features (e.g., create categorical, numerical, or boolean features from string columns).
+- Handle missing values (e.g., through deletion, `median imputation` for numerical columns, `mode imputation` for categorical columns).
+- Handle outliers (e.g., remove them using the `3SD` method or `1.5 IQR` method).
+- Save the preprocessed data (e.g., as a `.csv` file or in a MySQL database table).
+- Split data into training (e.g., 70%), validation (15%), and test (15%) sets.
+- Scale numerical features (e.g., using `standard scaling` or `min-max normalization`).
+- Encode categorical features (e.g., using `one-hot encoding`).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🚀 Getting Started
 Follow these steps to set up the virtual environment, install the required packages, and, if needed, set up environment variables for the project.
 
