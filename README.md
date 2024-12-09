@@ -25,7 +25,7 @@
 
 <!-- SUMMARY -->
 ## 🎯 Summary
-A ready-to-use Jupyter Notebook template for machine learning projects.
+This repository provides a comprehensive machine learning template designed to guide you through the key stages of the machine learning workflow, from data preprocessing to saving the final model. The template is organized into three key sections: **Data Preprocessing**, **Exploratory Data Analysis (EDA)**, and **Modeling**, with additional steps for **hyperparameter tuning**, **model evaluation** and **model selection**. It provides a flexible and robust foundation for any machine learning project and can be adapted to both regression and classification tasks. With this template, you can easily customize machine learning workflows to a variety of datasets and use cases, ensuring an efficient and reproducible approach to model development. 
 
 ### 🛠️ Built With
 - [![Python][Python-badge]][Python-url]
