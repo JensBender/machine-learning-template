@@ -55,6 +55,15 @@ The preprocessing section includes essential data cleaning and transformation st
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Exploratory Data Analysis (EDA)
+- Analyze descriptive statistics (e.g., `mean`, `median`, `standard deviation`) of numerical columns and visualize distributions (e.g., using `histograms`).
+- Examine frequencies of categorical columns and visualize them (e.g., using `bar plots` or a `bar plot matrix`).
+- Assess bivariate relationships between numerical columns (e.g., using a `correlation heatmap`, `scatterplots`, or a `scatterplot matrix`).
+- Explore relationships between numerical and categorical columns with group-wise statistics (e.g., `mean` or `median` by category) and visualize them (e.g., through `bar plots` or a `bar plot matrix`).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🚀 Getting Started
 Follow these steps to set up the virtual environment, install the required packages, and, if needed, set up environment variables for the project.
 
