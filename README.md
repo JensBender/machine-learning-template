@@ -52,6 +52,7 @@ The preprocessing section includes essential data cleaning and transformation st
 - **Split data** into training (e.g., 70%), validation (15%), and test (15%) sets using `train_test_split` from `sklearn`.
 - **Scale numerical features** (e.g., using standard scaling or min-max normalization) with `StandardScaler` or `MinMaxScaler` from `sklearn`.
 - **Encode categorical features** (e.g., using one-hot encoding) with `OneHotEncoder` from `sklearn`.
+- **Apply scaling and encoding together** using `ColumnTransformer` from `sklearn`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
