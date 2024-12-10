@@ -58,10 +58,13 @@ The preprocessing section includes essential data cleaning and transformation st
 
 
 ## Exploratory Data Analysis (EDA)
-- Analyze descriptive statistics (e.g., `mean`, `median`, `standard deviation`) of numerical columns and visualize distributions (e.g., using `histograms`).
-- Examine frequencies of categorical columns and visualize them (e.g., using `bar plots` or a `bar plot matrix`).
-- Assess bivariate relationships between numerical columns (e.g., using a `correlation heatmap`, `scatterplots`, or a `scatterplot matrix`).
-- Explore relationships between numerical and categorical columns with group-wise statistics (e.g., `mean` or `median` by category) and visualize them (e.g., through `bar plots` or a `bar plot matrix`).
+
+- **Univariate EDA**:
+    - **Numerical columns**: Analyze descriptive statistics (e.g., mean, median, standard deviation) using `describe` from `pandas`. Visualize distributions with histograms using `histplot` from `seaborn` and `matplotlib`.
+    - **Categorical columns**: Examine frequencies using `value_counts` from `pandas` and visualize them with bar plots or a bar plot matrix using `barplot` from `seaborn` and `subplot` from `matplotlib`. 
+- **Bivariate EDA**:
+    - **Two numerical columns**: Assess pairwise relationships with a correlation heatmap, scatterplots, or a scatterplot matrix. Use `corr` from `pandas`, `numpy`, `heatmap` and `scatterplot` from `seaborn`, and `subplot` from `matplotlib`.
+    - **Numerical and categorical columns**: Explore relationships with group-wise statistics (e.g., mean or median by category) using `groupby` and `describe` from `pandas`. Visualize results with bar plots or a bar plot matrix using `barplot` from `seaborn` and `subplot` from `matplotlib`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
