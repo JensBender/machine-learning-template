@@ -11,13 +11,13 @@
     </ul>
   </li>
   <li>
-    <a href="#data-preprocessing">Data Preprocessing</a>
+    <a href="#-data-preprocessing">Data Preprocessing</a>
   </li>
   <li>
-    <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+    <a href="#-exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
   </li>
   <li>
-    <a href="#modeling">Modeling</a>
+    <a href="#-modeling">Modeling</a>
   </li>
   <li>
     <a href="#-getting-started">Getting Started</a>  
@@ -47,7 +47,7 @@ This repository provides a comprehensive machine learning template designed to g
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Data Preprocessing
+## 🧹 Data Preprocessing
 The preprocessing section includes essential data cleaning and transformation steps:
 
 - **Load data** from a .csv file using `read_csv` from `pandas` or from a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `read_sql` from `pandas`.
@@ -65,7 +65,7 @@ The preprocessing section includes essential data cleaning and transformation st
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 - **Univariate EDA**:
     - **Numerical columns**: Analyze descriptive statistics (e.g., mean, median, standard deviation) using `describe` from `pandas`. Visualize distributions with histograms using `histplot` from `seaborn` and `matplotlib`.
     - **Categorical columns**: Examine frequencies using `value_counts` from `pandas` and visualize them with bar plots or a bar plot matrix using `barplot` from `seaborn` and `subplot` from `matplotlib`. 
@@ -76,7 +76,7 @@ The preprocessing section includes essential data cleaning and transformation st
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Modeling
+## 🧠 Modeling
 - **Train baseline models** to establish performance benchmarks:
     - **Regression task**: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, XGBoost Regressor (using `sklearn` and `xgboost`).
     - **Classification task**: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, XGBoost Classifier (using `sklearn` and `xgboost`).
