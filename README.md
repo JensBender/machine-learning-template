@@ -39,7 +39,6 @@ This repository provides a comprehensive machine learning template designed to g
 
 
 ## Data Preprocessing
-
 The preprocessing section includes essential data cleaning and transformation steps:
 
 - **Load data** from a .csv file using `read_csv` from `pandas` or from a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `read_sql` from `pandas`.
@@ -58,7 +57,6 @@ The preprocessing section includes essential data cleaning and transformation st
 
 
 ## Exploratory Data Analysis (EDA)
-
 - **Univariate EDA**:
     - **Numerical columns**: Analyze descriptive statistics (e.g., mean, median, standard deviation) using `describe` from `pandas`. Visualize distributions with histograms using `histplot` from `seaborn` and `matplotlib`.
     - **Categorical columns**: Examine frequencies using `value_counts` from `pandas` and visualize them with bar plots or a bar plot matrix using `barplot` from `seaborn` and `subplot` from `matplotlib`. 
@@ -69,11 +67,23 @@ The preprocessing section includes essential data cleaning and transformation st
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Modeling
+- **Train baseline models** to establish performance benchmarks:
+    - **Regression task**: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, XGBoost Regressor (using `sklearn` and `xgboost`).
+    - **Classification task**: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, XGBoost Classifier (using `sklearn` and `xgboost`).
+- **Perform hyperparameter tuning** (e.g., using grid search) with `GridSearchCV` from `sklearn`.
+- **Select the final model** based on performance evaluation:
+    - **Regression task**: E.g., using RMSE, MAPE, or R-squared (with `mean_squared_error`, `mean_absolute_percentage_error`, and `r2_score` from `sklearn`).
+    - **Classification task**: E.g., using accuracy, precision, recall, or F1 score (with `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay` from `sklearn`).
+- **Save the final model** (e.g., as a .pkl file) using `pickle`.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🚀 Getting Started
 Follow these steps to set up the virtual environment, install the required packages, and, if needed, set up environment variables for the project.
 
 ### 📦 Set Up Virtual Environment
-
 Follow the steps below to set up a Python virtual environment for this machine learning project and install the required dependencies.
 
 - Ensure you have Python installed on your system.
