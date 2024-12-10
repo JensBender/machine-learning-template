@@ -42,15 +42,16 @@ This repository provides a comprehensive machine learning template designed to g
 
 The preprocessing section includes essential data cleaning and transformation steps:
 
-- Remove duplicates (e.g., based on the `ID` column).
-- Handle incorrect data types (e.g., convert string columns to numerical or `datetime` columns).
-- Extract features (e.g., create categorical, numerical, or boolean features from string columns).
-- Handle missing values (e.g., through deletion, `median imputation` for numerical columns, `mode imputation` for categorical columns).
-- Handle outliers (e.g., remove them using the `3SD` method or `1.5 IQR` method).
-- Save the preprocessed data (e.g., as a `.csv` file or in a MySQL database table).
-- Split data into training (e.g., 70%), validation (15%), and test (15%) sets.
-- Scale numerical features (e.g., using `standard scaling` or `min-max normalization`).
-- Encode categorical features (e.g., using `one-hot encoding`).
+- **Load data** from a .csv file using `read_csv` from `pandas` or from a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `read_sql` from `pandas`.
+- **Remove duplicates** (e.g., based on the ID column) using `drop_duplicates` from `pandas`.
+- **Handle incorrect data types** (e.g., convert string columns to numerical or datetime columns) using `astype` or `to_datetime` from `pandas`.
+- **Extract features** (e.g., create categorical, numerical, or boolean features from string columns) using custom functions with `apply` from `pandas`, `lambda` functions, and `re` for pattern matching.
+- **Handle missing values** (e.g., through deletion, median imputation for numerical columns, or mode imputation for categorical columns) using `dropna` or `fillna` from `pandas`.
+- **Handle outliers** (e.g., remove them using the 3SD method or 1.5 IQR method) with a custom transformer class utilizing `BaseEstimator` and `TransformerMixin` from `sklearn`.
+- **Save the preprocessed data** as a .csv file using `to_csv` from `pandas` or in a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `to_sql` from `pandas`.
+- **Split data** into training (e.g., 70%), validation (15%), and test (15%) sets using `train_test_split` from `sklearn`.
+- **Scale numerical features** (e.g., using standard scaling or min-max normalization) with `StandardScaler` or `MinMaxScaler` from `sklearn`.
+- **Encode categorical features** (e.g., using one-hot encoding) with `OneHotEncoder` from `sklearn`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
