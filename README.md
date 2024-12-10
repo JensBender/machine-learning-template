@@ -11,6 +11,15 @@
     </ul>
   </li>
   <li>
+    <a href="#data-preprocessing">Data Preprocessing</a>
+  </li>
+  <li>
+    <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+  </li>
+  <li>
+    <a href="#modeling">Modeling</a>
+  </li>
+  <li>
     <a href="#-getting-started">Getting Started</a>  
     <ul>
         <li><a href="#-set-up-virtual-environment">Set Up Virtual Environment</a></li>
