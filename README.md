@@ -65,19 +65,31 @@ This repository provides a comprehensive machine learning template designed to g
 
 
 ## 🧹 Data Preprocessing
-The preprocessing section includes essential data cleaning and transformation steps:
-
-- **Load data** from a .csv file using `read_csv` from `pandas` or from a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `read_sql` from `pandas`.
-- **Remove duplicates** (e.g., based on the ID column) using `drop_duplicates` from `pandas`.
-- **Handle incorrect data types** (e.g., convert string columns to numerical or datetime columns) using `astype` or `to_datetime` from `pandas`.
-- **Extract features** (e.g., create categorical, numerical, or boolean features from string columns) using custom functions with `apply` from `pandas`, `lambda` functions, and `re` for pattern matching.
-- **Handle missing values** (e.g., through deletion, median imputation for numerical columns, or mode imputation for categorical columns) using `dropna` or `fillna` from `pandas`.
-- **Handle outliers** (e.g., remove them using the 3SD method or 1.5 IQR method) with a custom transformer class utilizing `BaseEstimator` and `TransformerMixin` from `sklearn`.
-- **Save the preprocessed data** as a .csv file using `to_csv` from `pandas` or in a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `to_sql` from `pandas`.
-- **Split data** into training (e.g., 70%), validation (15%), and test (15%) sets using `train_test_split` from `sklearn`.
-- **Scale numerical features** (e.g., using standard scaling or min-max normalization) with `StandardScaler` or `MinMaxScaler` from `sklearn`.
-- **Encode categorical features** (e.g., using one-hot encoding) with `OneHotEncoder` from `sklearn`.
-- **Apply scaling and encoding together** using `ColumnTransformer` from `sklearn`.
+Use `pandas`, `sklearn`, `sqlalchemy`, and `mysql-connector-python` for data loading, cleaning, transformation, and saving.
+- **Load data**:
+    - From a .csv file using `pandas` `read_csv`.
+    - From a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `pandas` `read_sql`.
+- **Remove duplicates**:
+    - Drop duplicate rows (e.g., based on the ID column) using `pandas` `drop_duplicates`.
+- **Handle incorrect data types**: Convert string columns to numerical types (`pandas` `astype`) and datetime types (`pandas` `to_datetime`).
+- **Extract features**:
+    - Creat categorical features from string columns using custom functions with `pandas` `apply`.
+    - Creat numerical features from string columns using custom functions with `pandas` `apply` and `re` for numeric pattern matching.
+    - Creat boolean features from string columns using `lambda` functions with `pandas` `apply`.
+- **Handle missing values**:
+    - Delete rows with missing values using `pandas` `dropna`.
+    - Impute missing values:
+        - Numerical columns: Impute the median using `pandas` `fillna`.
+        - Categorical columns: Impute the mode using `pandas` `fillna`.
+- **Handle outliers**:
+    - Remove univariate outliers using statistical methods (e.g., 3 standard deviations or 1.5 IQR) with a custom transformer class that inherits from `sklearn` `BaseEstimator` and `TransformerMixin`.
+- **Save the preprocessed data**:
+    - As a .csv file using `pandas` `to_csv`.
+    - In a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `pandas` `to_sql`.
+- **Split data** into training (e.g., 70%), validation (15%), and test (15%) sets using `sklearn` `train_test_split`.
+- **Scale numerical features** using standard scaling with `sklearn` `StandardScaler` or min-max normalization with `MinMaxScaler`.
+- **Encode categorical features** using one-hot encoding with `sklearn` `OneHotEncoder`.
+- **Apply scaling and encoding together** using `sklearn` `ColumnTransformer`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
