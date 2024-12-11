@@ -3,6 +3,9 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
+  <a href="https://github.com/JensBender/rental-price-prediction">
+    <img src="images/logo.jpg">
+  </a>
   <p>
     <br />
     Developed a versatile ML template for streamlining data preprocessing, exploratory data analysis, and modeling for both regression and classification tasks. Integrated hyperparameter tuning, model evaluation, and selection, providing a flexible and efficient framework for ML workflows.
