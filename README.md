@@ -95,25 +95,35 @@ Use `pandas`, `sklearn`, `sqlalchemy`, and `mysql-connector-python` for data loa
 
 
 ## 🔍 Exploratory Data Analysis (EDA)
+Use `pandas`, `numpy`, `seaborn`, and `matplotlib` for statistical analysis and visualizations.
 - **Univariate EDA**:
-    - **Numerical columns**: Analyze descriptive statistics (e.g., mean, median, standard deviation) using `describe` from `pandas`. Visualize distributions with histograms using `histplot` from `seaborn` and `matplotlib`.
-    - **Categorical columns**: Examine frequencies using `value_counts` from `pandas` and visualize them with bar plots or a bar plot matrix using `barplot` from `seaborn` and `subplot` from `matplotlib`. 
+    - **Numerical columns**:
+        - Analyze descriptive statistics (e.g., mean, median, standard deviation) using `pandas` `describe`.
+        - Visualize distributions with histograms using `seaborn` `histplot` and `matplotlib`.
+    - **Categorical columns**:
+        - Examine frequencies using `pandas` `value_counts`.
+        - Visualize frequencies with bar plots (`seaborn` `barplot`) or a bar plot matrix (`matplotlib` `subplot`). 
 - **Bivariate EDA**:
-    - **Two numerical columns**: Assess pairwise relationships with a correlation heatmap, scatterplots, or a scatterplot matrix. Use `corr` from `pandas`, `numpy`, `heatmap` and `scatterplot` from `seaborn`, and `subplot` from `matplotlib`.
-    - **Numerical and categorical columns**: Explore relationships with group-wise statistics (e.g., mean or median by category) using `groupby` and `describe` from `pandas`. Visualize results with bar plots or a bar plot matrix using `barplot` from `seaborn` and `subplot` from `matplotlib`.
+    - **Two numerical columns**:
+        - Analyze pairwise relationships with a correlation matrix (`pandas` `corr` and `numpy`) and visualize them with a heatmap (`seaborn` `heatmap`).
+        - Visualize relationships with scatterplots (`seaborn` `scatterplot`) or a scatterplot matrix (`matplotlib` `subplot`).
+    - **Numerical and categorical columns**:
+        - Explore relationships with group-wise statistics (e.g., mean or median by category) using `pandas` `groupby` and `describe`.
+        - Visualize results with bar plots (`seaborn` `barplot`) or a bar plot matrix (`matplotlib` `subplot`).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🧠 Modeling
+Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and saving.
 - **Train baseline models** to establish performance benchmarks:
-    - **Regression task**: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, XGBoost Regressor (using `sklearn` and `xgboost`).
-    - **Classification task**: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, XGBoost Classifier (using `sklearn` and `xgboost`).
-- **Perform hyperparameter tuning** (e.g., using grid search) with `GridSearchCV` from `sklearn`.
+    - **Regression task**: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
+    - **Classification task**: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
+- **Perform hyperparameter tuning** using grid search with `sklearn` `GridSearchCV`.
 - **Select the final model** based on performance evaluation:
-    - **Regression task**: E.g., using RMSE, MAPE, or R-squared (with `mean_squared_error`, `mean_absolute_percentage_error`, and `r2_score` from `sklearn`).
-    - **Classification task**: E.g., using accuracy, precision, recall, or F1 score (with `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay` from `sklearn`).
-- **Save the final model** (e.g., as a .pkl file) using `pickle`.
+    - **Regression task**: Using RMSE, MAPE, or R-squared as the evaluation metric with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
+    - **Classification task**: Using accuracy, precision, recall, or F1 score as the evaluation metric with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
+- **Save the final model**: E.g., as a .pkl file using `pickle`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
