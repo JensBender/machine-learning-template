@@ -160,6 +160,14 @@ This project is licensed under the [MIT License](LICENSE).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- CREDITS -->
+## 👏 Credits
+This project was made possible with the help of the following resources:
+- **Project Logo**: Created using the DALL·E image generator via [ChatGPT](https://chatgpt.com/) by OpenAI.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- MARKDOWN LINKS -->
 [Python-badge]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
