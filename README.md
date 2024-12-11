@@ -43,6 +43,9 @@
   <li>
     <a href="#️-license">License</a>
   </li>
+  <li>
+    <a href="#-credits">Credits</a>
+  </li>
 </ol>
 
 
