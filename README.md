@@ -71,7 +71,8 @@ Use `pandas`, `sklearn`, `sqlalchemy`, and `mysql-connector-python` for data loa
     - From a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `pandas` `read_sql`.
 - **Remove duplicates**:
     - Drop duplicate rows (e.g., based on the ID column) using `pandas` `drop_duplicates`.
-- **Handle incorrect data types**: Convert string columns to numerical types (`pandas` `astype`) and datetime types (`pandas` `to_datetime`).
+- **Handle incorrect data types**:
+    - Convert string columns to numerical types (`pandas` `astype`) and datetime types (`pandas` `to_datetime`).
 - **Extract features**:
     - Creat categorical features from string columns using custom functions with `pandas` `apply`.
     - Creat numerical features from string columns using custom functions with `pandas` `apply` and `re` for numeric pattern matching.
@@ -86,10 +87,12 @@ Use `pandas`, `sklearn`, `sqlalchemy`, and `mysql-connector-python` for data loa
 - **Save the preprocessed data**:
     - As a .csv file using `pandas` `to_csv`.
     - In a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `pandas` `to_sql`.
-- **Split data** into training (e.g., 70%), validation (15%), and test (15%) sets using `sklearn` `train_test_split`.
-- **Scale numerical features** using standard scaling with `sklearn` `StandardScaler` or min-max normalization with `MinMaxScaler`.
-- **Encode categorical features** using one-hot encoding with `sklearn` `OneHotEncoder`.
-- **Apply scaling and encoding together** using `sklearn` `ColumnTransformer`.
+- **Train-validation-test split**:
+    - Split data into training (e.g., 70%), validation (15%), and test (15%) sets using `sklearn` `train_test_split`.
+- **Feature scaling and encoding**:
+    - Scale numerical features using standard scaling with `sklearn` `StandardScaler` or min-max normalization with `MinMaxScaler`.
+    - Encode categorical features using one-hot encoding with `sklearn` `OneHotEncoder`.
+    - Apply scaling and encoding together using `sklearn` `ColumnTransformer`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,11 +122,15 @@ Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and savin
 - **Train baseline models** to establish performance benchmarks:
     - **Regression task**: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
     - **Classification task**: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
-- **Perform hyperparameter tuning** using grid search with `sklearn` `GridSearchCV`.
+- **Hyperparameter tuning**:
+    - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV`.
 - **Select the final model** based on performance evaluation:
     - **Regression task**: Using RMSE, MAPE, or R-squared as the evaluation metric with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
     - **Classification task**: Using accuracy, precision, recall, or F1 score as the evaluation metric with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
-- **Save the final model**: E.g., as a .pkl file using `pickle`.
+- **Feature importance**:
+    - Create a feature importance plot using `xgboost` `plot_importance`.
+- **Save the final model**:
+    - As a .pkl file using `pickle`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
