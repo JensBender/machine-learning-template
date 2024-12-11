@@ -51,7 +51,22 @@
 
 <!-- SUMMARY -->
 ## 🎯 Summary
-This repository provides a comprehensive machine learning template designed to guide you through the key stages of the machine learning workflow, from data preprocessing to saving the final model. The template is organized into three key sections: **Data Preprocessing**, **Exploratory Data Analysis (EDA)**, and **Modeling**, with additional steps for **hyperparameter tuning**, **model evaluation** and **model selection**. It provides a flexible and robust foundation for any machine learning project and can be adapted to both regression and classification tasks. With this template, you can easily customize machine learning workflows to a variety of datasets and use cases, ensuring an efficient and reproducible approach to model development. 
+This repository provides a comprehensive **machine learning template** that guides you through the key stages of the machine learning workflow:
+
+- **Data Preprocessing**:
+  - Load, clean, transform, and save data using `pandas` and `sklearn`.
+  - Extract new features and handle duplicates, incorrect data types, missing values, and outliers.
+  - Split data into training, validation, and test sets.
+  - Scale numerical and encode categorical features.
+- **Exploratory Data Analysis (EDA)**:
+  - Analyze descriptive statistics using `pandas` and `numpy`.
+  - Visualize distributions, correlations, and relationships using `seaborn` and `matplotlib`.
+- **Modeling**:
+  - Train baseline models and perform hyperparameter tuning for regression and classification tasks with `sklearn` and `xgboost`.
+  - Evaluate regression  (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1 score).
+  - Create feature importance plots and save the final model with `pickle`.
+
+This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient model development in any machine learning project.
 
 ### 🛠️ Built With
 - [![Python][Python-badge]][Python-url]
