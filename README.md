@@ -1,10 +1,10 @@
 <!-- anchor tag for back-to-top links -->
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
+<!-- HEADER IMAGE  -->
 <div align="center">
   <a href="https://github.com/JensBender/rental-price-prediction">
-    <img src="images/logo.jpg">
+    <img src="images/header-image.webp">
   </a>
   <p>
     <br />
