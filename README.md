@@ -83,14 +83,12 @@ Use `pandas`, `sklearn`, `sqlalchemy`, and `mysql-connector-python` for data loa
 - **Handle incorrect data types**:
     - Convert string columns to numerical types (`pandas` `astype`) and datetime types (`pandas` `to_datetime`).
 - **Extract features**:
-    - Creat categorical features from string columns using custom functions with `pandas` `apply`.
-    - Creat numerical features from string columns using custom functions with `pandas` `apply` and `re` for numeric pattern matching.
-    - Creat boolean features from string columns using `lambda` functions with `pandas` `apply`.
+    - Create categorical features from string columns using custom functions with `pandas` `apply`.
+    - Create numerical features from string columns using custom functions with `pandas` `apply`, and `re` for numeric pattern matching.
+    - Create boolean features from string columns using `lambda` functions with `pandas` `apply`.
 - **Handle missing values**:
     - Delete rows with missing values using `pandas` `dropna`.
-    - Impute missing values:
-        - Numerical columns: Impute the median using `pandas` `fillna`.
-        - Categorical columns: Impute the mode using `pandas` `fillna`.
+    - Impute missing values: Fill in the median for numerical columns or the mode for categorical columns using `pandas` `fillna`.
 - **Handle outliers**:
     - Remove univariate outliers using statistical methods (e.g., 3 standard deviations or 1.5 IQR) with a custom transformer class that inherits from `sklearn` `BaseEstimator` and `TransformerMixin`.
 - **Save the preprocessed data**:
@@ -129,13 +127,13 @@ Use `pandas`, `numpy`, `seaborn`, and `matplotlib` for statistical analysis and 
 ## 🧠 Modeling
 Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and saving.
 - **Train baseline models** to establish performance benchmarks:
-    - **Regression task**: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
-    - **Classification task**: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
+    - Regression task: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
+    - Classification task: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
 - **Hyperparameter tuning**:
     - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV`.
 - **Select the final model** based on performance evaluation:
-    - **Regression task**: Using RMSE, MAPE, or R-squared as the evaluation metric with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
-    - **Classification task**: Using accuracy, precision, recall, or F1 score as the evaluation metric with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
+    - Regression task: Using RMSE, MAPE, or R-squared as the evaluation metric with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
+    - Classification task: Using accuracy, precision, recall, or F1 score as the evaluation metric with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
 - **Feature importance**:
     - Create a feature importance plot using `xgboost` `plot_importance`.
 - **Save the final model**:
