@@ -228,3 +228,11 @@ This project was made possible with the help of the following resources:
 [scikit-learn-url]: https://scikit-learn.org/stable/
 [JupyterNotebook-badge]: https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white
 [JupyterNotebook-url]: https://jupyter.org/
+
+
+<!-- FOOTER IMAGE  -->
+<div align="center">
+  <a href="https://github.com/JensBender/rental-price-prediction">
+    <img src="images/footer-image.webp">
+  </a>
+</div> 
