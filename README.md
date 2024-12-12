@@ -45,7 +45,7 @@ Developed a versatile machine learning template for streamlining data preprocess
 
 <!-- SUMMARY -->
 ## 🎯 Summary
-This repository provides a comprehensive **machine learning template** in a Jupyter Notebook file to streamline the key stages of the machine learning workflow:
+This repository provides a comprehensive **machine learning template** in a Jupyter Notebook file to streamline the key stages of the machine learning workflow for tabular data:
 
 - **Data Preprocessing**:
   - Load, clean, transform, and save data using `pandas` and `sklearn`.
