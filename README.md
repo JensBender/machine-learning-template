@@ -210,7 +210,7 @@ This project is licensed under the [MIT License](LICENSE).
 <!-- CREDITS -->
 ## 👏 Credits
 This project was made possible with the help of the following resources:
-- **Project Logo**: Created using the DALL·E image generator via [ChatGPT](https://chatgpt.com/) by OpenAI.
+- **Header and footer images**: Generated using the FLUX.1 [dev] image generator via [Hugging Face](https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev) by [Black Forest Labs](https://blackforestlabs.ai/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
