@@ -45,22 +45,22 @@ Developed a versatile machine learning template for streamlining data preprocess
 
 <!-- SUMMARY -->
 ## 🎯 Summary
-This repository provides a comprehensive **machine learning template** that guides you through the key stages of the machine learning workflow:
+This repository provides a comprehensive **machine learning template** in a Jupyter Notebook file to streamline the key stages of the machine learning workflow:
 
 - **Data Preprocessing**:
   - Load, clean, transform, and save data using `pandas` and `sklearn`.
-  - Extract new features and handle duplicates, incorrect data types, missing values, and outliers.
+  - Handle duplicates, incorrect data types, missing values, and outliers.
+  - Extract features, scale numerical features, and encode categorical features.
   - Split data into training, validation, and test sets.
-  - Scale numerical and encode categorical features.
 - **Exploratory Data Analysis (EDA)**:
   - Analyze descriptive statistics using `pandas` and `numpy`.
   - Visualize distributions, correlations, and relationships using `seaborn` and `matplotlib`.
 - **Modeling**:
   - Train baseline models and perform hyperparameter tuning for regression and classification tasks with `sklearn` and `xgboost`.
-  - Evaluate regression  (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1 score).
-  - Create feature importance plots and save the final model with `pickle`.
+  - Evaluate regression (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1 score).
+  - Visualize feature importance and save the final model with `pickle`.
 
-This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient model development in any machine learning project.
+This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient and reproducible machine learning projects.
 
 ### 🛠️ Built With
 - [![Python][Python-badge]][Python-url]
