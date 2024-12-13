@@ -44,6 +44,7 @@ Developed a versatile machine learning template for streamlining data preprocess
 
 
 <!-- SUMMARY -->
+
 ## 🎯 Summary
 This repository provides a comprehensive **machine learning template** in a Jupyter Notebook file to streamline the key stages of the machine learning workflow for tabular data:
 
@@ -60,9 +61,7 @@ This repository provides a comprehensive **machine learning template** in a Jupy
   - Evaluate regression (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1 score).
   - Visualize feature importance and save the final model with `pickle`.
 
-This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient and reproducible machine learning projects.
-
-**Note**: This template is designed for tabular data (i.e., structured data organized in rows and columns), typically found in files like .csv, .xls, or SQL tables, using Pandas and Scikit-learn. It is less suitable for text, image, or time series data, which requires extensive preprocessing and specialized models using tools like TensorFlow, PyTorch, or Hugging Face Transformers. 
+This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient and reproducible machine learning projects. It is specifically tailored to structured tabular data (e.g., .csv, .xls, or SQL tables) using Pandas and Scikit-learn. It is not optimized for text, image, or time series data, which require  specialized preprocessing, models, and tools (e.g., TensorFlow, PyTorch).
 
 ### 🛠️ Built With
 - [![Python][Python-badge]][Python-url]
