@@ -128,8 +128,8 @@ Use `pandas`, `numpy`, `seaborn`, and `matplotlib` for statistical analysis and 
 ## 🧠 Modeling
 Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and saving.
 - **Train baseline models** to establish performance benchmarks:
-    - Regression task: E.g., Linear Regression, Support Vector Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
-    - Classification task: E.g., Logistic Regression, Support Vector Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
+    - Regression task: E.g., Linear Regression, Elastic Net Regression, K-Nearest Neighbors Regressor, Support Vector Regressor, Decision Tree Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
+    - Classification task: E.g., Logistic Regression, Elastic Net Logistic Regression, K-Nearest Neighbors Classifier, Support Vector Classifier, Decision Tree Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
 - **Hyperparameter tuning**:
     - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV`.
 - **Select the final model** based on performance evaluation:
