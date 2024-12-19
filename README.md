@@ -135,7 +135,7 @@ Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and savin
     - Regression task: E.g., Linear Regression, Elastic Net Regression, K-Nearest Neighbors Regressor, Support Vector Regressor, Decision Tree Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
     - Classification task: E.g., Logistic Regression, Elastic Net Logistic Regression, K-Nearest Neighbors Classifier, Support Vector Classifier, Decision Tree Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
 - **Hyperparameter tuning**:
-    - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV`.
+    - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV` or random search with `RandomizedSearchCV`.
 - **Select the final model** based on performance evaluation:
     - Regression task: Using RMSE, MAPE, or R-squared as the evaluation metric with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
     - Classification task: Using accuracy, precision, recall, or F1 score as the evaluation metric with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
