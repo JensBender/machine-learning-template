@@ -97,9 +97,13 @@ Use `pandas`, `sklearn`, `sqlalchemy`, and `mysql-connector-python` for data loa
     - In a MySQL database table using `sqlalchemy`, `mysql-connector-python`, and `pandas` `to_sql`.
 - **Train-validation-test split**:
     - Split data into training (e.g., 70%), validation (15%), and test (15%) sets using `sklearn` `train_test_split`.
+- **Polynomial features**:
+    - Create polynomial features using `sklearn` `PolynomialFeatures`.
 - **Feature scaling and encoding**:
     - Scale numerical features using standard scaling with `sklearn` `StandardScaler` or min-max normalization with `MinMaxScaler`.
-    - Encode categorical features using one-hot encoding with `sklearn` `OneHotEncoder`.
+    - Encode categorical features:
+        - Nominal features: Use one-hot encoding with `sklearn` `OneHotEncoder`.
+        - Ordinal features: Use ordinal encoding with `sklearn` `OrdinalEncoder`.
     - Apply scaling and encoding together using `sklearn` `ColumnTransformer`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
