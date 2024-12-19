@@ -131,18 +131,17 @@ Use `pandas`, `numpy`, `seaborn`, and `matplotlib` for statistical analysis and 
 
 ## 🧠 Modeling
 Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and saving.
-- **Train baseline models** to establish performance benchmarks:
-    - Regression task: E.g., Linear Regression, Elastic Net Regression, K-Nearest Neighbors Regressor, Support Vector Regressor, Decision Tree Regressor, Random Forest Regressor, Multi-Layer Perceptron Regressor, and XGBoost Regressor using `sklearn` and `xgboost`.
-    - Classification task: E.g., Logistic Regression, Elastic Net Logistic Regression, K-Nearest Neighbors Classifier, Support Vector Classifier, Decision Tree Classifier, Random Forest Classifier, Multi-Layer Perceptron Classifier, and XGBoost Classifier using `sklearn` and `xgboost`.
+- **Train baseline models**:
+    - Establish performance benchmarks with the following models using `sklearn` and `xgboost`: Linear Regression, Logistic Regression, Elastic Net Regression, K-Nearest Neighbors, Support Vector Machine, Decision Tree, Random Forest, Multi-Layer Perceptron, and XGBoost.
 - **Hyperparameter tuning**:
     - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV` or random search with `RandomizedSearchCV`.
-- **Select the final model** based on performance evaluation:
-    - Regression task: Using RMSE, MAPE, or R-squared as the evaluation metric with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
-    - Classification task: Using accuracy, precision, recall, or F1 score as the evaluation metric with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
+- **Model evaluation**:
+    - Regression task: Use evaluation metrics such as RMSE, MAPE, or R-squared with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
+    - Classification task: Use metrics like accuracy, precision, recall, or F1 score with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
 - **Feature importance**:
     - Create a feature importance plot using `xgboost` `plot_importance`.
 - **Save the final model**:
-    - As a .pkl file using `pickle`.
+    - Save the best-performing model as a a .pkl file using `pickle`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
