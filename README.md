@@ -139,7 +139,7 @@ Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and savin
     - Regression task: Use evaluation metrics such as RMSE, MAPE, or R-squared with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
     - Classification task: Use metrics like accuracy, precision, recall, or F1 score with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
 - **Feature importance**:
-    - Create a feature importance plot using `xgboost` `plot_importance`.
+    - Visualize feature importances using `seaborn` and `matplotlib` or `xgboost` `plot_importance`.
 - **Save the final model**:
     - Save the best-performing model as a a .pkl file using `pickle`.
 
