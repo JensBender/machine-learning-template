@@ -136,12 +136,17 @@ Use `sklearn`, `xgboost`, and `pickle` for model training, evaluation, and savin
 - **Hyperparameter tuning**:
     - Perform hyperparameter tuning using grid search with `sklearn` `GridSearchCV` or random search with `RandomizedSearchCV`.
 - **Model evaluation**:
-    - Regression task: Use evaluation metrics such as RMSE, MAPE, or R-squared with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, or `r2_score`.
-    - Classification task: Use metrics like accuracy, precision, recall, or F1 score with `sklearn` `classification_report`, `confusion_matrix`, and `ConfusionMatrixDisplay`.
+    - Regression task:
+        - Metrics: Calculate RMSE, MAPE, and R-squared with `sklearn` `mean_squared_error`, `mean_absolute_percentage_error`, and `r2_score`.
+        - Analyze errors with residual plots, error distributions, and feature-error relationships using `pandas`, `seaborn`, and `matplotlib`.
+    - Classification task:
+        - Metrics: Create classification report with accuracy, precision, recall, and F1-score using `sklearn` `classification_report`.
+        - Analyze misclassifications using a confusion matrix with `sklearn` `confusion_matrix` and `ConfusionMatrixDisplay`.
+        - Explore feature-misclassification relationships using `pandas`, `seaborn`, and `matplotlib`.
 - **Feature importance**:
     - Visualize feature importances using `seaborn` and `matplotlib` or `xgboost` `plot_importance`.
 - **Save the final model**:
-    - Save the best-performing model as a a .pkl file using `pickle`.
+    - Save the best-performing model as a .pkl file using `pickle`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
