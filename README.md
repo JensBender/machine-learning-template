@@ -58,7 +58,7 @@ This repository provides a comprehensive **machine learning template** in a Jupy
   - Visualize distributions, correlations, and relationships using `seaborn` and `matplotlib`.
 - **Modeling**:
   - Train baseline models and perform hyperparameter tuning for regression and classification tasks with `sklearn` and `xgboost`.
-  - Evaluate regression (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1 score).
+  - Evaluate regression (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1-score).
   - Visualize feature importance and save the final model with `pickle`.
 
 This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient and reproducible machine learning projects. It is specifically tailored to structured tabular data (e.g., .csv, .xls, or SQL tables) using Pandas and Scikit-learn. It is not optimized for text, image, or time series data, which require  specialized preprocessing, models, and tools (e.g., TensorFlow, PyTorch).
