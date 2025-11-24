@@ -191,11 +191,11 @@ You're now ready to use the environment for your machine learning project!
 - If your project requires sensitive information, such as API keys or database credentials, it is good practice to store this information securely in a `.env` file. Example `.env` file content:
   ```
   # Your API key
-  API_KEY="your_api_key_here"
+  API_KEY=your_api_key_here
 
   # Your SQL database credentials
-  SQL_USERNAME="your_sql_username_here"
-  SQL_PASSWORD="your_sql_password_here"
+  SQL_USERNAME=your_sql_username_here
+  SQL_PASSWORD=your_sql_password_here
   ```
 - Replace the placeholder values with your actual values.
 - Add the `.env` file to your `.gitignore` to ensure it is not accidentally committed to version control.
