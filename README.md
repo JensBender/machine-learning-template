@@ -158,16 +158,16 @@ Follow the steps below to set up a Python virtual environment for this machine l
 - Ensure you have Python installed on your system.
 - Create a virtual environment: 
   ```bash
-  python -m venv machine-learning-venv
+  python -m venv .venv
   ```
 - Activate the virtual environment:
   - On Windows:
     ```bash
-    machine-learning-venv\Scripts\activate
+    .venv\Scripts\activate
     ```
   - On macOS/Linux:
     ```bash
-    source machine-learning-venv/bin/activate
+    source .venv/bin/activate
     ```
 - Ensure that `pip` is up to date:
   ```bash
@@ -176,6 +176,11 @@ Follow the steps below to set up a Python virtual environment for this machine l
 - Install the required Python packages using the provided `requirements.txt` file:
   ```bash
   pip install -r requirements.txt
+  ```
+- Optionally, you can register the environment in Jupyter Notebook with a clear name like "Machine Learning Template" for Jupyter's kernel dropdown:
+  ```bash
+  pip install ipykernel
+  python -m ipykernel install --user --name=machine-learning-template --display-name "Machine Learning Template"
   ```
 You're now ready to use the environment for your machine learning project! 
 
