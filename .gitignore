@@ -1,4 +1,4 @@
 .ipynb_checkpoints
-machine-learning-venv
+.venv
 data/your_csv_file_here.csv 
 images/linkedin.jpg
