@@ -7,9 +7,7 @@
 <!-- SHORT SUMMARY  -->
 Developed a versatile machine learning template for streamlining data preprocessing, exploratory data analysis, and modeling for both regression and classification tasks. Integrated hyperparameter tuning, model evaluation, and selection, providing a flexible and efficient framework for machine learning workflows.
 
----
 
-<!-- TABLE OF CONTENTS -->
 ## 📋 Table of Contents
 <ol>
   <li>
@@ -43,8 +41,6 @@ Developed a versatile machine learning template for streamlining data preprocess
 </ol>
 
 
-<!-- SUMMARY -->
-
 ## 🎯 Summary
 This repository provides a comprehensive **machine learning template** in a Jupyter Notebook file to streamline the key stages of the machine learning workflow for tabular data:
 
@@ -61,7 +57,7 @@ This repository provides a comprehensive **machine learning template** in a Jupy
   - Evaluate regression (RMSE, MAPE, R-squared) and classification models (accuracy, precision, recall, F1-score).
   - Visualize feature importance, show model prediction examples, and save the final model with `pickle`.
 
-This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient and reproducible machine learning projects. It is specifically tailored to structured tabular data (e.g., .csv, .xls, or SQL tables) using Pandas and Scikit-learn. It is not optimized for text, image, or time series data, which require  specialized preprocessing, models, and tools (e.g., TensorFlow, PyTorch).
+This template provides a flexible, customizable foundation for various datasets and use cases, making it an ideal starting point for efficient and reproducible machine learning projects. It is specifically tailored to structured tabular data (e.g., .csv, .xls, or SQL tables) using Pandas and Scikit-learn. It is not optimized for text, image, or time series data, which require specialized preprocessing, models, and tools (e.g., TensorFlow, PyTorch).
 
 ### 🛠️ Built With
 - [![Python][Python-badge]][Python-url]
@@ -203,14 +199,12 @@ You're now ready to use the environment for your machine learning project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
 ## ©️ License
 This project is licensed under the [MIT License](LICENSE).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CREDITS -->
 ## 👏 Credits
 This project was made possible with the help of the following resources:
 - **Header and footer images**: Generated using the FLUX.1 [dev] image generator via [Hugging Face](https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev) by [Black Forest Labs](https://blackforestlabs.ai/).
