@@ -5,7 +5,7 @@
 <img src="images/header-image.webp">
 
 <!-- SHORT SUMMARY  -->
-Developed a versatile machine learning template for streamlining data preprocessing, exploratory data analysis, and modeling for both regression and classification tasks. Integrated hyperparameter tuning, model evaluation, and selection, providing a flexible and efficient framework for machine learning workflows.
+Designed a versatile machine learning template for streamlining data preprocessing, exploratory data analysis, and modeling for both regression and classification tasks on structured tabular data. Integrated hyperparameter tuning and model evaluation, providing a flexible and efficient framework for ML workflows.
 
 
 ## 📋 Table of Contents
